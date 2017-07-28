@@ -38,3 +38,14 @@ Route::get('/siswa', function () {
     return $a;
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('cektampilan', function () {
+    return view('layouts.master');
+});
+
+Route::get('cek', function () {
+    return view('layouts.master2');
+});
